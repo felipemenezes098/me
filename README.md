@@ -1,21 +1,14 @@
-# Next.js template
+![Me README](public/me-readme.png)
 
-This is a Next.js template with shadcn/ui.
+A minimal portfolio focused on clarity, craft, and interaction.
 
-## Adding components
+## Project intent
 
-To add components to your app, run the following command:
+This repository holds my personal site.
+It is a small space to present work, ideas, and references in a clean format.
 
-```bash
-npx shadcn@latest add button
-```
+## Principles
 
-This will place the ui components in the `components` directory.
-
-## Using components
-
-To use the components in your app, import them as follows:
-
-```tsx
-import { Button } from "@/components/ui/button";
-```
+- Keep it simple.
+- Keep it fast.
+- Keep it intentional.
