@@ -5,6 +5,7 @@ import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
 import { siteConfig } from "@/config/site"
 import { cn } from "@/lib/utils"
+import { Analytics } from "@/components/analytics"
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" })
 
@@ -69,6 +70,7 @@ export default function RootLayout({
     >
       <body>
         <ThemeProvider>{children}</ThemeProvider>
+        <Analytics />
       </body>
     </html>
   )
