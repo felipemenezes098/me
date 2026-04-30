@@ -1,4 +1,5 @@
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
+import { ThemeToggleButton } from "@/components/theme-toggle-button"
 import { siteConfig } from "@/config/site"
 import Link from "next/link"
 import meImage from "./me.jpeg"
@@ -94,7 +95,12 @@ export default function Page() {
       </section>
 
       <footer className="mt-auto pt-12 text-xs text-muted-foreground">
-        Press <kbd>d</kbd> to toggle theme.
+        <p className="hidden md:block">
+          Press <kbd>d</kbd> to toggle theme.
+        </p>
+        <div className="md:hidden">
+          <ThemeToggleButton />
+        </div>
       </footer>
     </main>
   )
